@@ -1,6 +1,6 @@
 # DevOps + AIOps Series
 
-> A full end-to-end DevOps project with AIOps integration — so you can connect the dots between how AI is helping automate DevOps tasks today.
+> A full end-to-end DevOps project with AIOps integration that can connect the dots between how AI is helping automate DevOps tasks today.
 
 ---
 
@@ -8,13 +8,9 @@
 
 Hey everyone!
 
-Welcome to my DevOps + AI series where we build an end-to-end DevOps project with an AIOps integration.
+Welcome to my DevOps + AI project where we build an end-to-end DevOps project with an AIOps integration.
 
-A lot of you have been asking: *"when are you going to share a full DevOps project?"*
-
-Well — here we are.
-
-In this series we will:
+In this project we will:
 
 - Build microservices locally
 - Use Claude and AI tools to assist development
@@ -23,10 +19,6 @@ In this series we will:
 - Set up a full CI/CD pipeline with GitHub Actions
 - Implement GitOps workflows with ArgoCD
 - Integrate AIOps capabilities with AWS Bedrock
-
-By the end of this series, you won't just know tools — you'll understand how real DevOps systems are designed and deployed.
-
----
 
 ## Repository Structure
 
@@ -56,7 +48,7 @@ DevOps-Practice-Guide/
 ### Claude Setup — AI Assistant Configuration
 [`docs/claude-setup.md`](docs/claude-setup.md)
 
-Before jumping into the project, this step walks through how Claude Code is configured as the AI assistant throughout this series.
+this step walks through how Claude Code is configured as the AI assistant throughout this series.
 
 Three things are set up:
 
@@ -75,14 +67,6 @@ Three things are set up:
 
 ---
 
-### Part 1 — System Design Foundations
-[`docs/part1-system-design.md`](docs/part1-system-design.md)
-
-We start with system design concepts specifically for cloud and DevOps. This is important whether you're a beginner, intermediate, or senior engineer — because companies don't choose tools randomly. They think about architecture patterns, deployment strategies, scalability, reliability, and cost tradeoffs.
-
-We cover 12 core system design pillars used in modern DevOps architectures, and connect each one directly to something running in this project.
-
----
 
 ### Part 2 — Understanding the Workflow
 [`docs/part2-workflow.md`](docs/part2-workflow.md)
@@ -100,7 +84,7 @@ This is where the full picture comes together — including how AI fits into the
 ### Part 3 — DevOps Project Implementation
 [`projects/README.md`](projects/README.md)
 
-Then we actually build the project. You'll see:
+Then we actually build the project
 
 - Docker containers and Docker Compose
 - Kubernetes deployments on EKS
@@ -125,24 +109,6 @@ Because modern DevOps is no longer just automation — it's **automation + intel
 
 ---
 
-## Bonus Challenge
-
-You'll get access to this entire repository.
-
-But there's a catch.
-
-The repository includes **intentional issues and troubleshooting tasks**.
-
-Why? Because AI has made things easier. But if you want to grow as an engineer, you must learn how to break systems, debug systems, and fix systems.
-
-Once you implement the project:
-
-1. Fork the repository
-2. Deploy the system
-3. Troubleshoot the issues
-4. Share what you learned — and tag me so I know you're building along
-
----
 
 ## Tech Stack
 
